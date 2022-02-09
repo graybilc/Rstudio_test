@@ -1,0 +1,26 @@
+---
+title: "my_first_R_markdown"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is my **first** R markdown document. This document is associated with the Coursera Data Scientist's Tookbox course week 4.  
+
+```{r}
+print("Hello World!")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
